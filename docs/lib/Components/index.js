@@ -35,6 +35,10 @@ const items = [
     to: '/components/collapse/',
   },
   {
+    name: 'Accordion',
+    to: '/components/accordion/',
+  },
+  {
     name: 'Carousel',
     to: '/components/carousel/'
   },

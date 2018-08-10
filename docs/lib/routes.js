@@ -25,6 +25,7 @@ import TabsPage from './Components/TabsPage';
 import JumbotronPage from './Components/JumbotronPage';
 import AlertsPage from './Components/AlertsPage';
 import CollapsePage from './Components/CollapsePage';
+import AccordionPage from './Components/AccordionPage';
 import CarouselPage from './Components/CarouselPage';
 import ListGroupPage from './Components/ListGroupPage';
 import ClearfixPage from './Utilities/ClearfixPage';
@@ -63,6 +64,7 @@ const routes = (
       <Route path="alerts/" component={AlertsPage} />
       <Route path="jumbotron/" component={JumbotronPage} />
       <Route path="collapse/" component={CollapsePage} />
+      <Route path="accordion/" component={AccordionPage} />
       <Route path="carousel/" component={CarouselPage} />
       <Route path="listgroup/" component={ListGroupPage} />
     </Route>
